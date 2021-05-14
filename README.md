@@ -11,6 +11,7 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Preprocessing pipelines](#preprocessing-pipelines)
+  - [Imputation](#imputation)
 - [Integration, Multi-omics methods](#integration-multi-omics-methods)
 - [Miscellaneous](#miscellaneous)
 
@@ -44,6 +45,11 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 - [ChromVAR](https://github.com/GreenleafLab/chromVAR) - scATAC-seq analysis. Identifying peaks, get a matrix of counts across aggregated peaks, tSNE for clustering, identifying motifs. Integrated with Seurat.
     - Schep, Alicia N, Beijing Wu, Jason D Buenrostro, and William J Greenleaf. “[ChromVAR: Inferring Transcription-Factor-Associated Accessibility from Single-Cell Epigenomic Data](https://doi.org/10.1038/nmeth.4401).” Nature Methods 14, no. 10 (August 21, 2017)
+
+### Imputation
+
+- [scOpen](https://github.com/CostaLab/scopen) - imputation for scATAC-seq data. Regularized NMF via a coordinate descent algorithm on binarized, TF-IDF-transformed ATAC-seq matrix. Tested on simulated (Chen et al. 2019) and four public scATAC-seq datasets against MAGIC, SAVER, scImpute, DCA, scBFA, cisTopic, SCALE, and PCA. Improves recovery of true open chromatin regions, clustering (ARI, silhouette), reduces memory footprint, fast. Improves the performance of downstream state-of-the-art scATAC-seq methods (cisTopic, chromVAR, Cicero). Applied to kidney fibrosis scATAC-seq data, Runx1 discovery. [Scripts to reproduce analyses](https://github.com/CostaLab/scopen-reproducibility)
+    - Li, Zhijian, Christoph Kuppe, Susanne Ziegler, Mingbo Cheng, Nazanin Kabgani, Sylvia Menzel, Martin Zenke, Rafael Kramann, and Ivan G. Costa. "[Chromatin-accessibility estimation of single-cell ATAC data with scOpen](https://www.biorxiv.org/content/10.1101/865931v3)." bioRxiv (2021)
 
 
 ## Integration, Multi-omics methods
