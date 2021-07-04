@@ -19,6 +19,10 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+- Review of chromatin accessibility profiling methods (wet-lab, technologies, downstream analysis and tools, applications), both bulk and single cell. DNAse-seq, ATAC-seq, MNase-seq, many more. Multi-omics technologies, integratie approaches.
+    - [Supplementary Table 1](https://www.nature.com/articles/s43586-020-00008-9#Sec29). [Commonly used bioinformatics tools for data processing and analysis of bulk and single-cell chromatin accessibility data.](https://static-content.springer.com/esm/art%3A10.1038%2Fs43586-020-00008-9/MediaObjects/43586_2020_8_MOESM1_ESM.pdf)
+    - Minnoye, Liesbeth, Georgi K. Marinov, Thomas Krausgruber, Lixia Pan, Alexandre P. Marand, Stefano Secchia, William J. Greenleaf, et al. “[Chromatin Accessibility Profiling Methods](https://doi.org/10.1038/s43586-020-00008-9).” Nature Reviews Methods Primers, (December 2021)
+
 ## Preprocessing pipelines
 
 - [Benchmarking of 10 scATAC-seq analysis methods](https://github.com/pinellolab/scATAC-benchmarking/) (brief description of each in Methods) on 10 synthetic (various depth and noise levels) and 3 real datasets. scATAC technology overview, problems. Three clustering methods (K-means, Louvain, hierarchical clustering), adjusted Rand index, adjusted mutual information, homogeneity for benchmarking against gold-standard clustering, Residual Average Gini Index for benchmarking against gene markers (silver standard). SnapATAC, Cusanovich2018, cisTopic perform best overall. [R code, Jupyter notebooks](https://github.com/pinellolab/scATAC-benchmarking/)
