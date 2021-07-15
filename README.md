@@ -89,7 +89,7 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 ### Mouse
 
-- Single-cell ATAC-seq, \~100,000 single cells from 13 adult mouse tissues. Two sequence platforms, good concordance. Filtered data assigned into 85 clusters. Genes associated with the corresponding ATAC sites (Cicero for identification). Differential accessibility. Motif enrichment (Basset CNN). GWAS results enrichment. [All data and metadata are available for download as text or rds format](http://atlas.gs.washington.edu/mouse-atac/)
+- Single-cell ATAC-seq, \~100,000 single cells from 13 adult mouse tissues. Two sequence platforms, good concordance. Filtered data assigned into 85 clusters. Genes associated with the corresponding ATAC sites (Cicero for identification). Differential accessibility. Motif enrichment (Basset CNN). GWAS results enrichment. [All data and metadata are available for download as text or rds format](https://atlas.gs.washington.edu/mouse-atac/data/)
     - Cusanovich, Darren A., Andrew J. Hill, Delasa Aghamirzaie, Riza M. Daza, Hannah A. Pliner, Joel B. Berletch, Galina N. Filippova, et al. “[A Single-Cell Atlas of In Vivo Mammalian Chromatin Accessibility](https://doi.org/10.1016/j.cell.2018.06.052).” Cell, (August 2018)
 
 
