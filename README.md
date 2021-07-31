@@ -64,6 +64,9 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 - [Multi-omics methods](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6440661/table/t1-gi-2018-16-4-e17/?report=objectonly) - Table 1 from Sierant, Michael C., and Jungmin Choi. “[Single-Cell Sequencing in Cancer: Recent Applications to Immunogenomics and Multi-Omics Tools](https://doi.org/10.5808/GI.2018.16.4.e17).” Genomics & Informatics 16, no. 4 (December 2018)
 
+- [MUON](https://github.com/PMBio/muon) - multimodal data structure to store and compute on multi-omics data. Meta-data can be object-specific or shared. Implemented in Python, MuData objects stored in HDF5 files. Includes Scanpy (omics data handling), MOFA+ (multi-omics factor analysis), neighbor graph analysis methods, visualization using matplotlib and seaborn. Examples on scRNA- and scATAC-seq PBMC data, others. [Documentation](https://muon-tutorials.readthedocs.io/en/latest/index.html). Tutorials [web](https://github.com/pmbio/muon-tutorials), [GitHub](https://github.com/pmbio/muon-tutorials). Interfaces for [R](https://github.com/pmbio/muon.r), [Julia](https://github.com/pmbio/Muon.jl)
+    - Bredikhin, Danila, Ilia Kats, and Oliver Stegle. “[Muon: Multimodal Omics Analysis Framework](https://doi.org/10.1101/2021.06.01.445670).” Preprint. Genomics, June 1, 2021. 
+
 - [JVis](https://github.com/canzarlab/JVis-learn), j-SNE and j-UMAP - joint visualization and clustering of multimodal omics data. Goal is to arrange points (here cells) in low-dimensional space such that similarities observed between points in high-dimensional space are preserved, but in all modalities at the same time. Python implementation. [Tweet](https://twitter.com/StefanCanzar/status/1348692349900251136?s=20)
     - Do, Van Hoan, and Stefan Canzar. “[A Generalization of T-SNE and UMAP to Single-Cell Multimodal Omics](https://doi.org/10.1101/2021.01.10.426098).” Preprint. Bioinformatics, January 10, 2021
 
