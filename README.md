@@ -13,6 +13,7 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 - [Preprocessing pipelines](#preprocessing-pipelines)
   - [Imputation](#imputation)
 - [Integration, Multi-omics methods](#integration-multi-omics-methods)
+- [Clustering, visualization](#clustering-visualization)
 - [Data](#data)
   - [Mouse](#mouse)
 - [Miscellaneous](#miscellaneous)
@@ -51,6 +52,11 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 - [ChromVAR](https://github.com/GreenleafLab/chromVAR) - scATAC-seq analysis. Identifying peaks, get a matrix of counts across aggregated peaks, tSNE for clustering, identifying motifs. Integrated with Seurat.
     - Schep, Alicia N, Beijing Wu, Jason D Buenrostro, and William J Greenleaf. “[ChromVAR: Inferring Transcription-Factor-Associated Accessibility from Single-Cell Epigenomic Data](https://doi.org/10.1038/nmeth.4401).” Nature Methods 14, no. 10 (August 21, 2017)
+
+## Clustering, visualization
+
+- [ChromSCape](https://bioconductor.org/packages/ChromSCape/) - Shiny/R application for single-cell epigenomic data visualization. clustering, differential peak analysis (Wilcoxon, edgeR), linking peaks to genes, pathway enrichment (hypergeometric on MSigDb). Wraps scater, scran, corrects for batch effect using fastMNN from batchelor, determines the optimal number of clusters with ConsensusClusterPlus (2-10 clusters). Input - BAM, BED files, or count matrix. Compared with Cusanovich2018, SnapATAC, CisTopic, EpiScanpy. Multiple datasets. [Web demo](https://vallotlab.shinyapps.io/ChromSCape/), [GitHub](https://github.com/vallotlab/ChromSCape), [Code for the paper](https://github.com/vallotlab/ChromSCape_benchmarking)
+    - Prompsy, Pacôme, Pia Kirchmeier, Justine Marsolier, Marc Deloger, Nicolas Servant, and Céline Vallot. “[Interactive Analysis of Single-Cell Epigenomic Landscapes with ChromSCape](https://doi.org/10.1038/s41467-020-19542-x).” Nature Communications, (December 2020)
 
 ### Imputation
 
