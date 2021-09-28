@@ -26,6 +26,9 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 ## Preprocessing pipelines
 
+- scATAC-seq analysis guidelines. Technologies, data preprocessing, peak annotation, QC, matrix building, batch correction, dimensionality reduction, visualization, clustering, cell identity annotation, chromatin accessibility dynamics, motif analysis. Table 1 - summary of 13 pipelines. Tools, methods, databases.
+    - Baek, Seungbyn, and Insuk Lee. “[Single-Cell ATAC Sequencing Analysis: From Data Preprocessing to Hypothesis Generation](https://doi.org/10.1016/j.csbj.2020.06.012).” Computational and Structural Biotechnology Journal, (2020)
+
 - [Benchmarking of 10 scATAC-seq analysis methods](https://github.com/pinellolab/scATAC-benchmarking/) (brief description of each in Methods) on 10 synthetic (various depth and noise levels) and 3 real datasets. scATAC technology overview, problems. Three clustering methods (K-means, Louvain, hierarchical clustering), adjusted Rand index, adjusted mutual information, homogeneity for benchmarking against gold-standard clustering, Residual Average Gini Index for benchmarking against gene markers (silver standard). SnapATAC, Cusanovich2018, cisTopic perform best overall. [R code, Jupyter notebooks](https://github.com/pinellolab/scATAC-benchmarking/)
     - Chen, Huidong, Caleb Lareau, Tommaso Andreani, Michael E. Vinyard, Sara P. Garcia, Kendell Clement, Miguel A. Andrade-Navarro, Jason D. Buenrostro, and Luca Pinello. “[Assessment of Computational Methods for the Analysis of Single-Cell ATAC-Seq Data](https://doi.org/10.1186/s13059-019-1854-5).” Genome Biology 20, no. 1 (December 2019)
 
