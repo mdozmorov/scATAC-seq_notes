@@ -99,6 +99,14 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 ## Data
 
+### Human
+
+- [CATLAS, Cis-element ATLAS](http://catlas.org/humanenhancer/#!/) - sciATAC-seq on 25 human tissue types, approx. 500,000 nuclei, over 750,000 candidate cis-regulatory elements (cCREs) in 54 distinct cell types. Cell- and tissue-specific gene regulatory programs. Analysis of noncoding variant effect on TF binding sites (deltaSVM model, 460 TFs affected, 302 likely causal GWAS variants prioritized). [Downloadable data](http://renlab.sdsc.edu/kai/Key_Processed_Data/), hg38 coordinates of cCREs, chromatin accessibility matrices aggregated as cell x cCRE, cell x gene (promoter), cell metadata, ontology, UMAP embeddings, bigWig tracks, cCRE to gene linkage data predicted by the Activity-By-Contact (ABC) model. [README(http://renlab.sdsc.edu/kai/Key_Processed_Data/README.md) <details>
+    <summary>Preprint</summary>
+
+    Zhang, Kai, James D Hocker, Michael Miller, Xiaomeng Hou, Joshua Chiou, Olivier B Poirion, Yunjiang Qiu, et al. “[A Cell Atlas of Chromatin Accessibility across 25 Adult Human Tissues](https://doi.org/10.1101/2021.02.17.431699).” Preprint. Genomics, February 17, 2021.
+</details>
+
 ### Mouse
 
 - Single-cell ATAC-seq, \~100,000 single cells from 13 adult mouse tissues. Two sequence platforms, good concordance. Filtered data assigned into 85 clusters. Genes associated with the corresponding ATAC sites (Cicero for identification). Differential accessibility. Motif enrichment (Basset CNN). GWAS results enrichment. [All data and metadata are available for download as text or rds format](https://atlas.gs.washington.edu/mouse-atac/data/)
