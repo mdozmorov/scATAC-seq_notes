@@ -109,4 +109,6 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 ## Miscellaneous
 
+- sciATAC-seq protocols on frozen tissues, [protocol 1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8121433/#__sec10title) from Hocker, James D., et al. "[Cardiac cell type–specific gene regulatory programs and disease risk association](https://dx.doi.org/10.1126%2Fsciadv.abf1444)." Science advances 7.20 (2021), [protocol 2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5862073/#S10title) from Preissl, Sebastian, et al. "[Single-nucleus analysis of accessible chromatin in developing mouse forebrain reveals cell-type-specific transcriptional regulation](https://dx.doi.org/10.1038%2Fs41593-018-0079-3)." Nature neuroscience, (2018)
+
 - scATAC-seq lectures by Ming Tang, YouTube. [scATAC-seq technique, 12 min](https://youtu.be/ufUVMHLDa00), [Preprocessing and QC, 19 min](https://youtu.be/Q2EHscxO1Sc), [Analysis, 14 min](https://youtu.be/zGcUo61ZLxE), [scATAC-scRNA-seq integration, 24 min](https://youtu.be/3XBwMemwrHc)
