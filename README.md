@@ -15,6 +15,7 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 - [Integration, Multi-omics methods](#integration-multi-omics-methods)
 - [Clustering, visualization](#clustering-visualization)
 - [Data](#data)
+  - [Human](#human)
   - [Mouse](#mouse)
 - [Miscellaneous](#miscellaneous)
 
