@@ -14,6 +14,7 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
   - [Imputation](#imputation)
 - [Integration, Multi-omics methods](#integration-multi-omics-methods)
 - [Clustering, visualization](#clustering-visualization)
+- [Technology](#technology)
 - [Data](#data)
   - [Human](#human)
   - [Mouse](#mouse)
@@ -70,10 +71,6 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 ## Integration, Multi-omics methods
 
-- [Single-cell ATAC + RNA co-assay methods](https://timoast.github.io/blog/single-cell-atac-rna/) - overview of technologies and protocols, references to the original papers
-
-- [Multi-omics methods](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6440661/table/t1-gi-2018-16-4-e17/?report=objectonly) - Table 1 from Sierant, Michael C., and Jungmin Choi. “[Single-Cell Sequencing in Cancer: Recent Applications to Immunogenomics and Multi-Omics Tools](https://doi.org/10.5808/GI.2018.16.4.e17).” Genomics & Informatics 16, no. 4 (December 2018)
-
 - [MUON](https://github.com/PMBio/muon) - multimodal data structure to store and compute on multi-omics data. Meta-data can be object-specific or shared. Implemented in Python, MuData objects stored in HDF5 files. Includes Scanpy (omics data handling), MOFA+ (multi-omics factor analysis), neighbor graph analysis methods, visualization using matplotlib and seaborn. Examples on scRNA- and scATAC-seq PBMC data, others. [Documentation](https://muon-tutorials.readthedocs.io/en/latest/index.html). Tutorials [web](https://github.com/pmbio/muon-tutorials), [GitHub](https://github.com/pmbio/muon-tutorials). Interfaces for [R](https://github.com/pmbio/muon.r), [Julia](https://github.com/pmbio/Muon.jl)
     - Bredikhin, Danila, Ilia Kats, and Oliver Stegle. “[Muon: Multimodal Omics Analysis Framework](https://doi.org/10.1101/2021.06.01.445670).” Preprint. Genomics, June 1, 2021. 
 
@@ -97,6 +94,14 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 - [Seurat v.3](https://satijalab.org/seurat/) paper. [Integration of multiple scRNA-seq and other single-cell omics](https://github.com/satijalab/Integration2019) (spatial transcriptomics, scATAC-seq, immunophenotyping), including batch correction. Anchors as reference to harmonize multiple datasets. Canonical Correlation Analysis (CCA) coupled with Munual Nearest Neighborhoors (MNN) to identify shared subpopulations across datasets. CCA to reduce dimensionality, search for MNN in the low-dimensional representation. Shared Nearest Neighbor (SNN) graphs to assess similarity between two cells. Outperforms scmap. Extensive validation on multiple datasets (Human Cell Atlas, STARmap mouse visual cortex spatial transcriptomics. Tabula Muris, 10X Genomics datasets, others in STAR methods). Data normalization, variable feature selection within- and between datasets, anchor identification using CCA (methods), their scoring, batch correction, label transfer, imputation. Methods correspond to details of each Seurat function. Preprocessing of real single-cell data.
     - Stuart, Tim, Andrew Butler, Paul Hoffman, Christoph Hafemeister, Efthymia Papalexi, William M Mauck, Marlon Stoeckius, Peter Smibert, and Rahul Satija. “[Comprehensive Integration of Single Cell Data](https://doi.org/10.1101/460147).” Preprint. Genomics, November 2, 2018. 
+
+## Technology
+
+- [Single-cell ATAC + RNA co-assay methods](https://timoast.github.io/blog/single-cell-atac-rna/) - overview of technologies and protocols, references to the original papers
+
+- [Multi-omics methods](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6440661/table/t1-gi-2018-16-4-e17/?report=objectonly) - Table 1 from Sierant, Michael C., and Jungmin Choi. “[Single-Cell Sequencing in Cancer: Recent Applications to Immunogenomics and Multi-Omics Tools](https://doi.org/10.5808/GI.2018.16.4.e17).” Genomics & Informatics 16, no. 4 (December 2018)
+
+
 
 ## Data
 
