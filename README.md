@@ -101,7 +101,10 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 - [Multi-omics methods](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6440661/table/t1-gi-2018-16-4-e17/?report=objectonly) - Table 1 from Sierant, Michael C., and Jungmin Choi. “[Single-Cell Sequencing in Cancer: Recent Applications to Immunogenomics and Multi-Omics Tools](https://doi.org/10.5808/GI.2018.16.4.e17).” Genomics & Informatics 16, no. 4 (December 2018)
 
-
+- **SHARE-seq** - simultaneous profiling of scRNA-seq and sc-ATAC-seq from the same cells. Built upon SPLiT-seq, a combinatorial indexing method. Confirmed by separate scRNA-seq and scATAC-seq datasets. Chromatin opening precedes transcriptional activation. <details>
+    <summary>Paper</summary>
+    Ma, Sai, Bing Zhang, Lindsay M. LaFave, Andrew S. Earl, Zachary Chiang, Yan Hu, Jiarui Ding, et al. “Chromatin Potential Identified by Shared Single-Cell Profiling of RNA and Chromatin.” Cell 183, no. 4 (November 2020): 1103-1116.e20. https://doi.org/10.1016/j.cell.2020.09.056.
+</details>
 
 ## Data
 
