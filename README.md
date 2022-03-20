@@ -130,6 +130,12 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
     Zhang, Kai, James D. Hocker, Michael Miller, Xiaomeng Hou, Joshua Chiou, Olivier B. Poirion, Yunjiang Qiu, et al. “A Single-Cell Atlas of Chromatin Accessibility in the Human Genome.” Cell, November 2021, S0092867421012794. https://doi.org/10.1016/j.cell.2021.10.024.
 </details>
 
+- Single-cell epigenomic identification of inherited risk loci in Alzheimer’s and Parkinson’s disease. scATAC-seq data integrated with published HiChIP data. [GitHub](https://github.com/kundajelab/alzheimers_parkinsons). [GEO GSE147672](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147672) - processed scATAC-seq data, BED, bigWig, SummarizedExperiment. [WashU session drS3o1n4kJ](http://epigenomegateway.wustl.edu/legacy/?genome=hg38&%20session=drS3o1n4kJ) with scATAS clusters, cell types, neuron subclusters and cell types. [Supplementary data](https://www.nature.com/articles/s41588-020-00721-x#Sec47) with scATAC-seq peaks, neuronal cluster definitions, differential accessibility. <details>
+    <summary>Paper</summary>
+    Corces, M. Ryan, Anna Shcherbina, Soumya Kundu, Michael J. Gloudemans, Laure Frésard, Jeffrey M. Granja, Bryan H. Louie, et al. “Single-Cell Epigenomic Analyses Implicate Candidate Causal Variants at Inherited Risk Loci for Alzheimer’s and Parkinson’s Diseases.” Nature Genetics 52, no. 11 (November 2020): 1158–68. https://doi.org/10.1038/s41588-020-00721-x.
+</details>
+
+
 ### Mouse
 
 - Single-cell ATAC-seq, \~100,000 single cells from 13 adult mouse tissues. Two sequence platforms, good concordance. Filtered data assigned into 85 clusters. Genes associated with the corresponding ATAC sites (Cicero for identification). Differential accessibility. Motif enrichment (Basset CNN). GWAS results enrichment. [All data and metadata are available for download as text or rds format](https://atlas.gs.washington.edu/mouse-atac/data/)
