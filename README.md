@@ -64,6 +64,11 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 - [Dimensionality Reduction for scATAC-seq Data](http://andrewjohnhill.com/images/posts/2019-5-6-dimensionality-reduction-for-scatac-data/analysis.html)
 
+- [ShinyArchR.UiO](https://github.com/EskelandLab/ShinyArchRUiO) - R Shiny app for scATAC-seq data analysis and visualization using [ArchR](https://www.archrproject.com/). UMAP, clustering, integration with scRNA-seq, functional enrichment analysis. Runs locally. [Demo server with a hematopoietic tutorial dataset](https://cancell.medisin.uio.no/ShinyArchR.UiO/). <details>
+    <summary>Paper</summary>
+    Sharma, Ankush, Akshay Akshay, Marie Rogne, and Ragnhild Eskeland. “ShinyArchR.UiO: User-Friendly,Integrative and Open-Source Tool for Visualization of Single-Cell ATAC-Seq Data Using ArchR.” Edited by Can Alkan. Bioinformatics 38, no. 3 (January 12, 2022): 834–36. https://doi.org/10.1093/bioinformatics/btab680.
+</details>
+
 - [ChromSCape](https://bioconductor.org/packages/ChromSCape/) - Shiny/R application for single-cell epigenomic data visualization. clustering, differential peak analysis (Wilcoxon, edgeR), linking peaks to genes, pathway enrichment (hypergeometric on MSigDb). Wraps scater, scran, corrects for batch effect using fastMNN from batchelor, determines the optimal number of clusters with ConsensusClusterPlus (2-10 clusters). Input - BAM, BED files, or count matrix. Compared with Cusanovich2018, SnapATAC, CisTopic, EpiScanpy. Multiple datasets. [Web demo](https://vallotlab.shinyapps.io/ChromSCape/), [GitHub](https://github.com/vallotlab/ChromSCape), [Code for the paper](https://github.com/vallotlab/ChromSCape_benchmarking)
     - Prompsy, Pacôme, Pia Kirchmeier, Justine Marsolier, Marc Deloger, Nicolas Servant, and Céline Vallot. “[Interactive Analysis of Single-Cell Epigenomic Landscapes with ChromSCape](https://doi.org/10.1038/s41467-020-19542-x).” Nature Communications, (December 2020)
 
