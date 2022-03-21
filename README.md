@@ -22,9 +22,15 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-- Review of chromatin accessibility profiling methods (wet-lab, technologies, downstream analysis and tools, applications), both bulk and single cell. DNAse-seq, ATAC-seq, MNase-seq, many more. Multi-omics technologies, integratie approaches.
-    - [Supplementary Table 1](https://www.nature.com/articles/s43586-020-00008-9#Sec29). [Commonly used bioinformatics tools for data processing and analysis of bulk and single-cell chromatin accessibility data.](https://static-content.springer.com/esm/art%3A10.1038%2Fs43586-020-00008-9/MediaObjects/43586_2020_8_MOESM1_ESM.pdf)
-    - Minnoye, Liesbeth, Georgi K. Marinov, Thomas Krausgruber, Lixia Pan, Alexandre P. Marand, Stefano Secchia, William J. Greenleaf, et al. “[Chromatin Accessibility Profiling Methods](https://doi.org/10.1038/s43586-020-00008-9).” Nature Reviews Methods Primers, (December 2021)
+- Review of chromatin accessibility profiling methods (wet-lab, technologies, downstream analysis and tools, applications), both bulk and single cell. DNAse-seq, ATAC-seq, MNase-seq, many more. Multi-omics technologies, integratie approaches. <details>
+    <summary>Paper</summary>
+    Minnoye, Liesbeth, Georgi K. Marinov, Thomas Krausgruber, Lixia Pan, Alexandre P. Marand, Stefano Secchia, William J. Greenleaf, et al. “Chromatin Accessibility Profiling Methods.” Nature Reviews Methods Primers, (December 2021), https://doi.org/10.1038/s43586-020-00008-9. Supplementary Table 1 - Commonly used bioinformatics tools for data processing and analysis of bulk and single-cell chromatin accessibility data, https://static-content.springer.com/esm/art%3A10.1038%2Fs43586-020-00008-9/MediaObjects/43586_2020_8_MOESM1_ESM.pdf
+</details>
+
+- Single-cell multiomics technologies, integration of transriptome with genome, epigenome, and proteome. Table 1 - summary of technologies. Cell isolation and barcoding. Figure 2 - genome-transcriptome single-cell technologies, Figure 3 - epigenome-transcriptome technologies, Figure 4 - proteome-transcriptome technologies. Figure 5 - overview of computational methods (dimensionality reduction, clustering, network, pseudotime inference, CNV detection), references to reviews. Integrative analysis methods (LIGER, MOFA). <details>
+    <summary>Paper</summary>
+    Lee, Jeongwoo, Do Young Hyeon, and Daehee Hwang. “Single-Cell Multiomics: Technologies and Data Analysis Methods.” Experimental & Molecular Medicine, September 15, 2020. https://doi.org/10.1038/s12276-020-0420-2.
+</details>
 
 ## Preprocessing pipelines
 
