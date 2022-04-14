@@ -144,6 +144,11 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 ### Mouse
 
+- scRNA-seq and scATAC-seq of normal mammary epithelial cells (MECs, mouse). 4 main clusters, their characteristics. Trajectory analysis, regulatory modules and TFs. Seurat/Signac, Monocle, Cicero, cisTopic, ChromVar, Homer. Processed data: [GSE157890](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157890). <details>
+    <summary>Paper</summary>
+    Pervolarakis, Nicholas, Quy H. Nguyen, Justice Williams, Yanwen Gong, Guadalupe Gutierrez, Peng Sun, Darisha Jhutty, et al. “Integrated Single-Cell Transcriptomics and Chromatin Accessibility Analysis Reveals Regulators of Mammary Epithelial Cell Identity.” Cell Reports 33, no. 3 (October 2020): 108273. https://doi.org/10.1016/j.celrep.2020.108273.
+</details>
+
 - Single-cell ATAC-seq, \~100,000 single cells from 13 adult mouse tissues. Two sequence platforms, good concordance. Filtered data assigned into 85 clusters. Genes associated with the corresponding ATAC sites (Cicero for identification). Differential accessibility. Motif enrichment (Basset CNN). GWAS results enrichment. [All data and metadata are available for download as text or rds format](https://atlas.gs.washington.edu/mouse-atac/data/)
     - Cusanovich, Darren A., Andrew J. Hill, Delasa Aghamirzaie, Riza M. Daza, Hannah A. Pliner, Joel B. Berletch, Galina N. Filippova, et al. “[A Single-Cell Atlas of In Vivo Mammalian Chromatin Accessibility](https://doi.org/10.1016/j.cell.2018.06.052).” Cell, (August 2018)
 
