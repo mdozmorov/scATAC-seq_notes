@@ -127,6 +127,11 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
     Ma, Sai, Bing Zhang, Lindsay M. LaFave, Andrew S. Earl, Zachary Chiang, Yan Hu, Jiarui Ding, et al. “Chromatin Potential Identified by Shared Single-Cell Profiling of RNA and Chromatin.” Cell 183, no. 4 (November 2020): 1103-1116.e20. https://doi.org/10.1016/j.cell.2020.09.056.
 </details>
 
+- **dscATAC-seq** (droplet single-cell assay for transposase-accessible chromatin using sequencing), with combinatorial indexing (dsciATAC-seq, cells are combinatorially barcoded, multiple cells per droplet). After Tn5 transposing (increased concentration), intact nuclei are isolated into droplets. Increased library size, complexity (chromVAR), proportion of TSS/nuclear fragments, high human/mouse specificity. tSNE clustering using the latent semantic indexing (LSI), better resolved clusters, uncorrelated with technical batches. Applied to (1) a reference map of chromatin accessibility in the mouse brain (46,653 cells) and (2) an unbiased map of human hematopoietic states in the bone marrow (60,495 cells), isolated cell populations from bone marrow and blood (52,873 cells), and bone marrow cells in response to stimulation (75,958 cells). Data at [GSE123581](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123581). [Analysis code](https://github.com/buenrostrolab/dscATAC_analysis_code), computational pipeline [BAP](https://github.com/caleblareau/bap). <details>
+    <summary>Paper</summary>
+    Lareau, Caleb A., Fabiana M. Duarte, Jennifer G. Chew, Vinay K. Kartha, Zach D. Burkett, Andrew S. Kohlway, Dmitry Pokholok, et al. “Droplet-Based Combinatorial Indexing for Massive-Scale Single-Cell Chromatin Accessibility.” Nature Biotechnology 37, no. 8 (August 2019): 916–24. https://doi.org/10.1038/s41587-019-0147-6.
+</details>
+
 ## Data
 
 ### Human
