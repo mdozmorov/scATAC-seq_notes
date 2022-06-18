@@ -122,6 +122,11 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 - [Multi-omics methods](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6440661/table/t1-gi-2018-16-4-e17/?report=objectonly) - Table 1 from Sierant, Michael C., and Jungmin Choi. “[Single-Cell Sequencing in Cancer: Recent Applications to Immunogenomics and Multi-Omics Tools](https://doi.org/10.5808/GI.2018.16.4.e17).” Genomics & Informatics 16, no. 4 (December 2018)
 
+- **scGET-seq**, single-cell genome and epigenome by transposases sequencing technology, uses a hybrid transposase treatment including the canonical Tn5 and TnH recognizing the chromodomain of the heterochromatin protein-1a (HP-1a) that maintains heterochromatin by binding to H3K9me3. Each transposase differentialy barcoded. Probes both open and chlosed chromatin, better resolves CNVs than scATAC-seq. scGET-seq in NIH-3T3 cells before and after Kdm5c histone demethylase knockdown (impairs H3K9me3 deposition). Chromatin Velosity method that identifies the trajectories of epigenetic modifications. [Data](https://www.nature.com/articles/s41587-021-01031-1#data-availability) on Array Express, [scGET](https://github.com/leomorelli/scGET) analysis scripts and [scatACC](https://github.com/dawe/scatACC) for custom scATAC analysis. <details>
+    <summary>Paper</summary>
+    Tedesco, Martina. “Chromatin Velocity Reveals Epigenetic Dynamics by Single-Cell Profiling of Heterochromatin and Euchromatin.” Nature Biotechnology, 11 October 2021, https://doi.org/10.1038/s41587-021-01031-1
+</details>
+
 - **SHARE-seq** - simultaneous profiling of scRNA-seq and sc-ATAC-seq from the same cells. Built upon SPLiT-seq, a combinatorial indexing method. Confirmed by separate scRNA-seq and scATAC-seq datasets. Chromatin opening precedes transcriptional activation. <details>
     <summary>Paper</summary>
     Ma, Sai, Bing Zhang, Lindsay M. LaFave, Andrew S. Earl, Zachary Chiang, Yan Hu, Jiarui Ding, et al. “Chromatin Potential Identified by Shared Single-Cell Profiling of RNA and Chromatin.” Cell 183, no. 4 (November 2020): 1103-1116.e20. https://doi.org/10.1016/j.cell.2020.09.056.
