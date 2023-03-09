@@ -97,6 +97,11 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 ## Integration, Multi-omics methods
 
+- Review of single-cell multi-omics (scATAC-seq, scRNA-seq) integration principles, methods, and tools. Integration of matched and unmatched data, annotated group matching, matching with common features, aligning spaces. Quantitative causal modeling, statistical modeling, latent space inference, consensus of individual inferences (late integration). Integrating multimodal (jointly profiled) omics data. Brief description of technologies, tools. Visualization of multi-omics data, challenges. Table 1 - tools for matched data analysis, with links. <details>
+    <summary>Paper</summary>
+    Miao, Zhen, Benjamin D. Humphreys, Andrew P. McMahon, and Junhyong Kim. “Multi-Omics Integration in the Age of Million Single-Cell Data.” Nature Reviews Nephrology 17, no. 11 (November 2021): 710–24. https://doi.org/10.1038/s41581-021-00463-x.
+</details>
+
 - [MUON](https://github.com/PMBio/muon) - multimodal data structure to store and compute on multi-omics data. Meta-data can be object-specific or shared. Implemented in Python, MuData objects stored in HDF5 files. Includes Scanpy (omics data handling), MOFA+ (multi-omics factor analysis), neighbor graph analysis methods, visualization using matplotlib and seaborn. Examples on scRNA- and scATAC-seq PBMC data, others. [Documentation](https://muon-tutorials.readthedocs.io/en/latest/index.html). Tutorials [web](https://github.com/pmbio/muon-tutorials), [GitHub](https://github.com/pmbio/muon-tutorials). Interfaces for [R](https://github.com/pmbio/muon.r), [Julia](https://github.com/pmbio/Muon.jl)
     - Bredikhin, Danila, Ilia Kats, and Oliver Stegle. “[Muon: Multimodal Omics Analysis Framework](https://doi.org/10.1101/2021.06.01.445670).” Preprint. Genomics, June 1, 2021. 
 
