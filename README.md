@@ -43,6 +43,11 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 ![](pipeline_comparison.png)
 [Extended Data Fig. 1: Comparison of supported features from currently available scATAC-seq software.](https://www.nature.com/articles/s41588-021-00790-6/figures/5), from ArchR paper.
 
+- [SnapATAC2](https://github.com/kaizhang/SnapATAC2) - scATAC-seq processing pipeline. Main improvement - a fast nonlinear dimensionality reduction algorithm, matrix-free spectral clustering, Lanczos algorithm to derive eigenvectors while implicitly using the Laplacian matrix. Four primary modules: preprocessing, embedding/clustering (includes batch correction), functional enrichment analysis, and multi-modal omics analysis. Starts from BAM files, scaling columns with IDF. Outperforms ArchR (LSI), Signac (LSI), cisTopic (LDA), epyScanpy (PCA), PeakVI, scBassett in speed, scalability and precision in resolving cell heterogeneity on synthetic and experimental data from different technologies, species, and tissue types. Applicable to any omics data (scHi-C, scRNA-seq, single-cell methylation). Rust, with Python interface. [Benchmarking datasets](https://osf.io/hfs2v/), [Docker image](https://hub.docker.com/u/kaizhang) and [code](https://github.com/kaizhang/single-cell-benchmark) to reproduce the analysis. <details>
+    <summary>Paper</summary>
+    Zhang, Kai, Nathan R. Zemke, Ethan J. Armand, and Bing Ren. "SnapATAC2: a fast, scalable and versatile tool for analysis of single-cell omics data." bioRxiv (2023). https://doi.org/10.1101%2F2023.09.11.557221
+</details>
+
 - [PIC-snATAC](https://github.com/Zhen-Miao/PIC-snATAC) - Paired-Insertion-Counting method for snATAC-seq feature characterization. Fragment-based (number of reads in the union of peaks) and insertion-based (number of Tn5 insertions in the appropriate direction) ATAC-seq quantification. Methods and tools overview, contrasting differences. Applied to mouse kidney snATAC-seq data, 10X genomics PBMC, a Bone Marrow Mononuclear Cells (BMMC) multiome dataset. Better resolves cell types, association with gene expression. <details>
     <summary>Paper</summary>
     Miao, Zhen, and Junhyong Kim. “Is Single Nucleus ATAC-Seq Accessibility a Qualitative or Quantitative Measurement?” Preprint. Bioinformatics, April 21, 2022. https://doi.org/10.1101/2022.04.20.488960.
