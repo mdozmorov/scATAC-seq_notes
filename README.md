@@ -164,6 +164,11 @@ Single-cell ATAC-seq related tools and genomics data analysis resources. Tools a
 
 ## Data
 
+- [dbscATAC](http://singlecelldb.com/dbscATAC/index.php) - super-enhancers/enhancers and gene markers derived from scATAC-seq data. 13 species, including human hg38. Previous resources: SEA 3.0, SEdb 2.0, SEA, SEdb, dbSUPER and SELER, EnhancerAtlas, EnhancerAtlas 2.0, and scEnhancer. Harmonizing processed data, using counts. Enhancers called by the ROSE (Rank Ordering of Super-Enhancers) algorithm, target promoter interaction with Cicero. Download coordinates of Single-cell enhancers/super-enhancers, Single-cell marker genes, Enhancer-gene interactions at the single-cell level, SNPs within single-cell enhancers, TF binding motifs within single-cell enhancers, Disease enhancers annotated by HEDD. [GitHub](https://github.com/EvansGao/dbscATAC). <details>
+    <summary>Paper</summary>
+    Li, Yingmei, Shahid Ullah, Yumei Xian, Yazhou Sun, Zilong Zheng, Xiaoyu Ma, Ming Shi, et al. “dbscATAC: A Resource of Single-Cell Super-Enhancers/Enhancers and Gene Markers Derived from scATAC-Seq Data,” n.d.
+</details>
+
 ### Human
 
 - [CATLAS, Cis-element ATLAS](http://catlas.org/humanenhancer/#!/) - sciATAC-seq on 25 human tissue types, approx. 500,000 nuclei, over 750,000 candidate cis-regulatory elements (cCREs) in 54 distinct cell types. Cell- and tissue-specific gene regulatory programs. Analysis of noncoding variant effect on TF binding sites (deltaSVM model, 460 TFs affected, 302 likely causal GWAS variants prioritized). [Downloadable data](http://renlab.sdsc.edu/kai/Key_Processed_Data/), hg38 coordinates of cCREs, chromatin accessibility matrices aggregated as cell x cCRE, cell x gene (promoter), cell metadata, ontology, UMAP embeddings, bigWig tracks, cCRE to gene linkage data predicted by the Activity-By-Contact (ABC) model. [README](http://renlab.sdsc.edu/kai/Key_Processed_Data/README.md) <details>
